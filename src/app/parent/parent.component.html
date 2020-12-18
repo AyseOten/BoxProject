@@ -1,0 +1,9 @@
+<div class="container">
+    <div oncontextmenu="return false;">
+        <div class="bigbox" appMyDirectives> right click me! </div>
+            <div *ngIf="contextmenu==true">
+                <app-context [x] = "contextMenuX" [y]="contextMenuY"></app-context>
+            </div>
+            <!-- <input type="text" appMyDirectives/> -->
+    </div>
+  </div>
